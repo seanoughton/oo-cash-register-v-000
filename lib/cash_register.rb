@@ -29,6 +29,7 @@ class CashRegister
 
   def items()
     #you need to return the array of items
+    @item_array = []
     @item_array
   end
 
