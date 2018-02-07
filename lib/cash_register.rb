@@ -18,6 +18,7 @@ class CashRegister
     #you need to push title onto that array
     #@item_array << title
     if quantity>1
+      i=0
       while i<quantity
         @item_array << title
         i+=1
