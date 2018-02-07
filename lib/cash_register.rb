@@ -25,7 +25,7 @@ class CashRegister
   end
 
   def items()
-
+    @item_array
   end
 
 end
