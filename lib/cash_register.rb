@@ -40,4 +40,7 @@ class CashRegister
     @item_array
   end
 
+  def void_last_transaction()
+  end
+
 end
