@@ -9,11 +9,9 @@ class CashRegister
   def initialize(discount = 0)
     @total = 0
     @discount = discount
-  end
-
-  def item_array
     @item_array = []
   end
+
 
   def add_item(title,price,quantity = 1)
     #you need an array to push title onto, the array is an instance variable
