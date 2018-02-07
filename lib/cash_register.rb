@@ -4,7 +4,7 @@ class CashRegister
   attr_accessor :total, :discount
   #attr_reader :item_array
 
-  @item_array = []
+
 
   def initialize(discount = 0)
     @total = 0
@@ -14,6 +14,7 @@ class CashRegister
   def add_item(title,price,quantity = 1)
     #you need an array to push title onto, the array is an instance variable
     #you need to push title onto that array
+    @item_array = []
     @total += price*quantity
   end
 
