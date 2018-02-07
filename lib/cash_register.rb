@@ -18,7 +18,7 @@ class CashRegister
         i+=1
       end
     else
-      @item_array << title
+      @items << title
     end
     @total += price*quantity
     @last_transaction_amount = @total
