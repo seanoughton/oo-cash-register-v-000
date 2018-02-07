@@ -14,9 +14,6 @@ class CashRegister
 
 
   def add_item(title,price,quantity = 1)
-    #you need an array to push title onto, the array is an instance variable
-    #you need to push title onto that array
-    #@item_array << title
     if quantity>1
       i=0
       while i<quantity
@@ -40,8 +37,6 @@ class CashRegister
   end
 
   def items()
-    #you need to return the array of items
-    #@item_array = []
     @item_array
   end
 
