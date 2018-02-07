@@ -10,7 +10,7 @@ class CashRegister
   end
 
   def add_item(title,price,quantity = 1)
-    self.@item_array << title
+    @item_array << title
     @total += price*quantity
   end
 
