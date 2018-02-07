@@ -18,7 +18,7 @@ class CashRegister
     #you need to push title onto that array
     #@item_array << title
     if quantity>1
-      do something
+      something
     else
       @item_array << title
     end
