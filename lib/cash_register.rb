@@ -16,7 +16,12 @@ class CashRegister
   def add_item(title,price,quantity = 1)
     #you need an array to push title onto, the array is an instance variable
     #you need to push title onto that array
-    @item_array << title
+    #@item_array << title
+    if quantity>1
+      do something
+    else
+      @item_array << title
+    end
     @total += price*quantity
   end
 
