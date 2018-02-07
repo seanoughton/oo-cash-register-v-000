@@ -2,7 +2,7 @@
 class CashRegister
 
   attr_accessor :total, :discount
-  attr_reader :item_array
+  #attr_reader :item_array
 
   @item_array = []
 
